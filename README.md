@@ -7,6 +7,11 @@ $ yarn install
 $ yarn start
 ```
 
+### How to test
+```
+$ yarn test --watchAll
+```
+
 ### Design desision
 For this challenge I have used component/container pattern to split between ui-logic and business-logic. In different situation I'll rather use 'atomic design', but it will be overkill for such small task.
 
